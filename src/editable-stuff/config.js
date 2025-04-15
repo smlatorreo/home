@@ -39,7 +39,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Sergio M. Latorre. I am a population geneticist working with a wide range of model systems. I use genomic data from modern and historical organisms with state-of-art computational methods to investigate questions about population histories, local adaptation, selection and allele frequencies through time, among others.",
-  resume: "../_data/resume.pdf",
+  resume: "https://github.com/smlatorreo/smlatorreo.github.io/blob/main/_data/resume.pdf",
 };
 
 // PROJECTS SECTION
@@ -51,7 +51,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "smlatorreo",
-  reposLength: 0,
+  reposLength: 3,
   specificRepos: ["mChr_Moryzae", "wheat-clonal-linage", "Plant-aDNA-pipeline", "modules_python"],
 };
 
