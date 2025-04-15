@@ -38,7 +38,7 @@ const about = {
   imageLink: require("../editable-stuff/profile.png"),
   imageSize: 375,
   message:
-    "My name is Sergio M. Latorre s.",
+    "My name is Sergio M. Latorre. I am a population geneticist working with a wide range of model systems. I use genomic data from modern and historical organisms with state-of-art computational methods to investigate questions about population histories, local adaptation, selection and allele frequencies through time, among others.",
   resume: "../editable-stuff/resume.pdf",
 };
 
@@ -52,7 +52,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "smlatorreo",
   reposLength: 4,
-  specificRepos: [],
+  specificRepos: ["mChr_Moryzae", "wheat-clonal-linage", "Plant-aDNA-pipeline", "modules_python"],
 };
 
 // Leadership SECTION
@@ -88,13 +88,13 @@ const skills = {
     { name: "R", value: 90 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
+//    { name: "Goal-Oriented", value: 80 },
+//    { name: "Collaboration", value: 90 },
+//    { name: "Positivity", value: 75 },
+//    { name: "Adaptability", value: 85 },
+//    { name: "Problem Solving", value: 75 },
+//    { name: "Empathy", value: 90 },
+//    { name: "Organization", value: 70 },
     { name: "Creativity", value: 90 },
   ],
 };
