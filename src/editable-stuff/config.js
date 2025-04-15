@@ -12,19 +12,19 @@ const mainBody = {
   message: " Population Geneticist working in Plant and Fungal relations. ",
   icons: [
     {
-      image: "fa-github",
+      image: "fab fa-github",
       url: "https://github.com/smlatorreo",
     },
     {
-      image: "fa-GoogleScholar",
+      image: "ai ai-google-scholar",
       url : "https://scholar.google.com/citations?user=Mt0b754AAAAJ&hl",
     },
     {
-      image: "fa-twitter",
+      image: "fab fa-twitter",
       url: "https://www.twitter.com/smlatorreo/",
     },
     {
-      image: "tb-World",
+      image: "fas fa-globe",
       url: "http://profiles.ucl.ac.uk/82058-sergio-m-latorre",
     },
   ],
