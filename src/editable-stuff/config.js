@@ -24,6 +24,10 @@ const mainBody = {
       url: "https://www.twitter.com/smlatorreo/",
     },
     {
+      image: "fab fa-bluesky",
+      url: "https://bsky.app/profile/smlatorreo.bsky.social"
+    },
+    {
       image: "fas fa-globe",
       url: "http://profiles.ucl.ac.uk/82058-sergio-m-latorre",
     },
