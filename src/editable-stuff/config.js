@@ -98,7 +98,7 @@ const skills = {
   labSkills: [
     { name: "Clean Room facilities", value: 80 },
     { name: "Ancient DNA extraction", value: 90 },
-    { name: "Ancient DNA library contruction", value: 90 },
+    { name: "Ancient DNA library construction", value: 90 },
   ],
 };
 
