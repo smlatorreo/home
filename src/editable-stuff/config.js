@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Sergio",
   middleName: "M.",
   lastName: "Latorre",
-  message: " Population Geneticist working in Plant and Fungal relations. ",
+  message: " Population geneticist working in plant-fungal interactions ",
   icons: [
     {
       image: "fab fa-github",
@@ -40,9 +40,9 @@ const about = {
   show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/profile.png"),
-  imageSize: 375,
+  imageSize: 350,
   message:
-    "My name is Sergio M. Latorre. I am a population geneticist working with a wide range of model systems. I use genomic data from modern and historical organisms with state-of-art computational methods to investigate questions about population histories, local adaptation, selection and allele frequencies through time, among others.",
+    "As a population geneticist, I work across diverse model systems, leveraging modern and historical genomic data with cutting-edge computational methods to study: 1) Population histories 2) Local adaptation dynamics 3) Natural selection patterns 4) Temporal allele frequency changes",
   resume: "https://github.com/smlatorreo/smlatorreo.github.io/blob/main/_data/resume.pdf",
 };
 
@@ -55,8 +55,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "smlatorreo",
-  reposLength: 3,
-  specificRepos: ["mChr_Moryzae", "wheat-clonal-linage", "Plant-aDNA-pipeline", "modules_python"],
+  reposLength: 0,
+  specificRepos: ["mChr_Moryzae", "Plant-aDNA-pipeline", "wheat-clonal-linage", "modules_python"],
 };
 
 // Leadership SECTION
@@ -87,19 +87,18 @@ const leadership = {
 const skills = {
   show: true,
   heading: "Skills",
-  hardSkills: [
+  compSkills: [
     { name: "Python", value: 90 },
-    { name: "R", value: 90 },
+    { name: "NumPy, pandas, scikit-learn", value: 90},
+    { name: "Bash", value: 90 },
+    { name: "R", value: 80 },
+    { name: "Git", value: 90 },
+    { name: "nextflow", value: 70 }
   ],
-  softSkills: [
-//    { name: "Goal-Oriented", value: 80 },
-//    { name: "Collaboration", value: 90 },
-//    { name: "Positivity", value: 75 },
-//    { name: "Adaptability", value: 85 },
-//    { name: "Problem Solving", value: 75 },
-//    { name: "Empathy", value: 90 },
-//    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+  labSkills: [
+    { name: "Clean Room facilities", value: 80 },
+    { name: "Ancient DNA extraction", value: 90 },
+    { name: "Ancient DNA library contruction", value: 90 },
   ],
 };
 
@@ -109,7 +108,7 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "",
-  email: "s.latorre [at] ucl.ac.uk.co",
+  email: "s.latorre[at]ucl.ac.uk.co",
 };
 
 const experiences = {
@@ -118,20 +117,20 @@ const experiences = {
   data: [
     {
       role: 'XXX',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      companylogo: require('../assets/img/XX.png'),
+      date: 'XX – XX',
     },
     {
       role: 'XX',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      companylogo: require('../assets/img/XX.png'),
+      date: 'XX – XX',
     },
   ]
 }
 
 // Blog SECTION
-// const blog = {
-//   show: false,
-// };
+//const blog = {
+//  show: false,
+//};
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
